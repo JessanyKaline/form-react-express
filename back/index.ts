@@ -14,7 +14,7 @@ import userRoutes from "./src/infrastructure/http/user.routes.js";
 dotenv.config();
 
 const app = express();
-app.use(cors()); // Adicione esta linha para habilitar CORS
+app.use(cors());
 app.use(express.json());
 
 const userRepository = new PostgresUserRepository(pool);

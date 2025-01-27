@@ -4,6 +4,8 @@
 
 The goal of this project is to build a user registration form with a back-end API and a front-end React application. The back-end handles user data validation and registration, while the front-end provides the user interface.
 
+[Video Explanation in Portuguese](https://www.youtube.com/watch?v=URsXMFBxyQk)
+
 ### **Form Fields:**
 1. **Name**  
    - A text field where the user can input their name.

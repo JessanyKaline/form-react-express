@@ -33,7 +33,7 @@ The goal of this project is to build a user registration form with a back-end AP
    - If the email already exists in the database, the user should be notified that the email is taken.
 
 3. **CEP:**
-   - The CEP field must contain only numbers and be formatted as `XXXXX-XXX`.
+   - The CEP field must contain only numbers and be formatted as `XXXXXXXX`.
 
 ### **Optional Features:**
 
@@ -66,7 +66,6 @@ src/
 │   └── useCases/
 │       ├── create-user.UseCase.ts
 │       ├── find-user-by-id.UseCase.ts
-│       └── list-user-by-id.UseCase.ts
 │       ├── list-users.UseCase.ts
 │       └── update-user.UseCase.ts
 ├── infrastructure/
